@@ -1,6 +1,6 @@
-# 🎓 Student Management System (SQL Server)
+#  Student Management System (SQL Server)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a relational **Student Management System** built using Microsoft SQL Server.  
 
@@ -10,11 +10,11 @@ The goal of this project was to strengthen practical SQL skills for Data Analyti
 
 ---
 
-## 🛠 Database Structure
+##  Database Structure
 
 The system consists of three main tables:
 
-### 1️⃣ Students
+###  Students
 - StudentID (Primary Key)
 - FirstName
 - LastName
@@ -22,13 +22,13 @@ The system consists of three main tables:
 - Gender
 - City
 
-### 2️⃣ Courses
+###  Courses
 - CourseID (Primary Key)
 - CourseName
 - Department
 - Credits (CHECK constraint: Credits > 0)
 
-### 3️⃣ Enrollments
+###  Enrollments
 - EnrollmentID (Primary Key)
 - StudentID (Foreign Key)
 - CourseID (Foreign Key)
@@ -42,9 +42,9 @@ Relationships:
 
 ---
 
-## 🔎 Features Implemented
+##  Features Implemented
 
-### ✅ Data Definition
+###  Data Definition
 - CREATE DATABASE
 - CREATE TABLE
 - PRIMARY KEY
@@ -52,13 +52,13 @@ Relationships:
 - CHECK constraints
 - DEFAULT constraints
 
-### ✅ Data Manipulation
+###  Data Manipulation
 - INSERT
 - UPDATE
 - DELETE
 - SELECT
 
-### ✅ Filtering & Conditions
+###  Filtering & Conditions
 - WHERE
 - AND / OR
 - LIKE
@@ -66,11 +66,11 @@ Relationships:
 - BETWEEN
 - IS NULL / IS NOT NULL
 
-### ✅ Sorting & Limiting
+###  Sorting & Limiting
 - ORDER BY
 - TOP
 
-### ✅ Aggregation
+###  Aggregation
 - COUNT
 - AVG
 - SUM
@@ -79,20 +79,20 @@ Relationships:
 - GROUP BY
 - HAVING
 
-### ✅ Joins
+###  Joins
 - INNER JOIN
 - LEFT JOIN
 - RIGHT JOIN
 - FULL OUTER JOIN
 - SELF JOIN
 
-### ✅ Set Operators
+###  Set Operators
 - UNION
 - UNION ALL
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - Relational database design
 - Data integrity enforcement
@@ -102,7 +102,7 @@ Relationships:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Advanced subqueries (EXISTS, ANY, ALL)
 - Window functions (ROW_NUMBER, RANK)
@@ -111,8 +111,8 @@ Relationships:
 
 ---
 
-## 👨🏽‍💻 Author
+##  Author
 
 Neo Letswalo  
-Aspiring Data Analyst | SQL | Python | Backend Systems  
+Aspiring Data Scientist | SQL | Python | Backend Systems  
 Johannesburg, South Africa
